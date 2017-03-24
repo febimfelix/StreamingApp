@@ -59,7 +59,7 @@ public class FullscreenActivity extends AppCompatActivity {
         mVisible            = true;
         mProgressBarView    = (ProgressBar) findViewById(R.id.id_progress_bar);
         mVideoView          = (VideoView) findViewById(R.id.fullscreen_content);
-        mVideoView.setVideoPath("your video url here");
+        mVideoView.setVideoPath("http://livestream.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4.m3u8");
         mVideoView.start();
 
         mVideoView.setOnClickListener(new View.OnClickListener() {
